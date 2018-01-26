@@ -6,14 +6,33 @@ body {
 	margin-bottom: 10px;
 }
 
-.randomNumberDiv {
-	background-color: lightgreen;
+.random {
+	background-color: #8FBC8F;
 }
 
-.winsLossesDiv {
-	background-color: lightblue;
+.results {
+	background-color: aqua;
+	margin-left: 10px;
 }
 
-.scoreDiv {
-	background-color: pink;
+.scoreBox1 {
+	background-color: teal;
+	color: white;
+}
+
+.scoreBox2 {
+	background-color: teal;
+	color: white;
+	height: 80px;
+}
+
+.topBox {
+	background-color: orange;
+	color: white;
+	height: 70px;
+}
+
+.jumbotron {
+    background-color:tan !important; 
+    color: green !important;
 }

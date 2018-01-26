@@ -13,10 +13,13 @@
    </head>
    <body>
       <div class="container">
+        <div class="row">
+      <div class="col-md-4 col-md-offset-1 topBox">
+        <h2>Crystals Collector!</h2>
+      </div>
+    </div>
         <div class="jumbotron">
-        <!-- Header -->
-        <h1>Crystals Collector!</h1>
-      
+                     
           <h4><small>You will be given a random number at the start of the game.</small></h4>
           <h4><small>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</small></h4>
           <h4><small>You win the game by matching your total score to random number. You lose the game if your total score goes above the random number.</small></h4>
@@ -26,10 +29,10 @@
       
       <!-- random number div and wins/losses div -->
     <div class="row">
-      <div class="col-md-3 col-md-offset-1 randomNumberDiv">
+      <div class="col-md-3 col-md-offset-1 random">
         <h2 id="randomNumber">random#</h2>
       </div>
-      <div class="col-md-3 col-md-offset-1 winsLossesDiv">
+      <div class="col-md-3 col-md-offset-1 results">
         <p id="wins">Wins: </p>
         <p id="losses">Losses: </p>
       </div>
@@ -53,14 +56,14 @@
     
     <!-- score text row -->
     <div class="row">
-      <div class="col-md-3 col-md-offset-1 scoreDiv">
+      <div class="col-md-3 col-md-offset-1 scoreBox1">
         <p>Your total score is:</p>
       </div>
     </div>
 
     <!-- user score div -->
     <div class="row">
-      <div class="col-md-3 col-md-offset-1 scoreDiv">
+      <div class="col-md-3 col-md-offset-1 scoreBox2">
         <h2 id="score">score</h2>
       </div>
     </div>
